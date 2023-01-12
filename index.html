@@ -27,21 +27,53 @@
       .blue {
         color: blue;
       }
+
+      video {
+        width: 1000px;
+        border-radius: 15px;
+      }
+
+      header {
+        margin-bottom: 2em;
+        font-weight: bold;
+      }
+
+      footer {
+        margin-top: 3em;
+        font-weight: bold;
+      }
+
+      footer p {
+        margin-left: 380px;
+      }
     </style>
   </head>
   <body>
     <a href="#">
       <img
         class="profile-pic"
-        src="images/raymond_repito_profile_pic_400_x_400.jpg"
+        src="images/iamf4algernon_400_x_400.jpg"
         alt="An image of iamf4algernon"
       />
     </a>
-    <header><p class="username blue">@iammilford1974</p></header>
-
+    <header>
+        <p class="username blue">@iamiamf4algernon</p>
+    </header>
+    <video autoplay controls preload="metadata">
+      <source src="videos/best-days.mp4#t=0" type="video/mp4" />
+      <track
+        label="English"
+        kind="subtitles"
+        srclang="en"
+        src="subtitles/vtt/best-days.srt"
+        default
+      />
+    </video>
+    <audio class="best-days-audio" autoplay src="audio/best-days.mp3#t=0,323">
+      Your browser does not support audio.
+    </audio>
     <footer>
-      <p>iammilford1974 &copy; 2022</p>
+      <p>iamf4algernon &copy; 2023</p>
     </footer>
   </body>
 </html>
-	
